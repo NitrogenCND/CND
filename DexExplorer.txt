@@ -1,6 +1,4 @@
-<html>
-<title>Nitrogen | Dex Explorer | By BabyHamsta</title>    
-<head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">--By BabyHamsta 
+--By BabyHamsta 
     CreateGui = function()
     local NewGuiPart1 = Instance.new("ScreenGui")
     local NewGuiPart2 = Instance.new("Frame")
@@ -8705,4 +8703,4 @@
     scrollBarH:Update()
     end)
     
-    --moony</pre></body></html>
+    --moony
