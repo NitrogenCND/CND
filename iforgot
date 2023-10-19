@@ -1,0 +1,12 @@
+--ah yes this was a Murder Vs Sheriffs duels script.
+--credits to some dude (his github is right above this text so...)
+if not isfolder("ranxV2") then
+    makefolder("ranxV2/games")
+end
+local suc,res = pcall(function()
+    return game:HttpGet("https://raw.githubusercontent.com/AsteriskCodes/Ranxware-V2-Restored/main/Games/MVS-DUELS.lua")
+end)
+if suc then
+    writefile("ranxV2/games/mvs-duels.lua",res)
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AsteriskCodes/Ranxware-V2-Restored/main/loader.lua"))()
