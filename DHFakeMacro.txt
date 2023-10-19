@@ -1,0 +1,11 @@
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "Fake Macro loaded";
+Title = "Credits to Envixity | Nitrogen";
+Duration = 15;
+});
+--Speed is just a speed tool without the macro animation, but if u want it anyways set it from getgenv().Speed = false to getgenv().Speed = true
+getgenv().Speed = false
+getgenv().FakeMacro = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Kit%20tools.txt"))()
